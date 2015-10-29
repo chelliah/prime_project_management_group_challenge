@@ -1,10 +1,11 @@
 /**
  * Created by aronthomas on 10/28/15.
  */
-var marvel = require('marvel-chars-name-gen');
+var chance = require('chance');
 
 function generateName(){
-    return marvel();
+    aChance = new chance();
+    return aChance.name();
     //return 'steve';
 }
 
