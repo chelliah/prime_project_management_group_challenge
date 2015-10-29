@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+mark {
+    border-radius: 5px;
+}
+
+mark.constant {
+    background-color: lightblue;
+}
+
+mark.flux {
+    background-color: pink;
+}
+
+mark.time{
+    background-color: #dba040;
+}
+
+#generateCompany {
+    width: 50%;
+}
+
+#assignEmployees{
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+#skill {
+    border: 1px solid black;
+    padding: 5px;
+}
+
